@@ -1,0 +1,55 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin: 10px;
+}
+
+.containre {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+textarea {
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    outline: none;
+    resize: none;
+}
+
+.winner {
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    position:absolute;
+    z-index: 1000;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    display: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.color {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: black;
+    margin-right: 20px;
+}
